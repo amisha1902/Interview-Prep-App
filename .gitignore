@@ -1,0 +1,38 @@
+# Gradle files
+.gradle/
+**/build/
+**/out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ/Android Studio files
+.idea/
+*.iml
+*.hprof
+*.log
+
+# Keystore files (important for security)
+*.jks
+*.keystore
+
+# Local properties (contains SDK paths)
+local.properties
+
+# Dependency caches
+.cxx/
+.externalNativeBuild/
+.caches/
+
+# Miscellaneous OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# APKs
+*.apk
+*.aab
+
+# Firebase files (if using Firebase)
+firebase/analytics*
+/google-services.json
